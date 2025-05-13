@@ -4,6 +4,12 @@ This file tracks all significant changes made to the OpenAI Responses Starter Ap
 
 ## [Unreleased]
 
+### Added
+- Added `deploy` script to `package.json` for Cloudflare Workers deployment.
+
+### Bug Fixes
+- Prevent sending null vector store IDs to the OpenAI API when file search is enabled but no store is configured.
+
 ### Initial Setup - 2025-05-10
 - Created changelog to track project modifications
 - Conducted initial project assessment
