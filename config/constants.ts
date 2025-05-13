@@ -15,7 +15,7 @@ If they ask for something that is related to their own data, use the file search
 
 // Initial message that will be displayed in the chat
 export const INITIAL_MESSAGE = `
-Hi, how can I help you?
+OMG what do you want now?
 `;
 
 export const defaultVectorStore = {
