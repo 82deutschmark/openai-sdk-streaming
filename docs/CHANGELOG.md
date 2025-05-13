@@ -4,6 +4,9 @@ This file tracks all significant changes made to the OpenAI Responses Starter Ap
 
 ## [Unreleased]
 
+### Changed
+- Added `wrangler` as a devDependency to ensure it's available during Cloudflare Pages builds.
+
 ### Added
 - Added `deploy` script to `package.json` for Cloudflare Workers deployment.
 
